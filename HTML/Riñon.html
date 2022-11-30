@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Urinario</title>
+    <link rel="stylesheet" href="../CSS/Riñon.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upSection">
+            <a id="atras" href="./pageSimulation.html">Atras</a>
+            <h1>Anatomia Funcional del Riñon</h1>
+        </div>
+        <div class="downSection">
+            <div class="left">
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>1. Capsula renal</p>
+                    <div class="content">
+                        La cápsula renal contiene una capa de células contráctiles llamadas miofibroblastos, que hacen que esta pueda adaptarse a los cambios constantes de presión dentro del riñón.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer/def/capsula-renal#:~:text=Tejido%20fibroso%20conjuntivo%20que%20rodea%20cada%20ri%C3%B1%C3%B3n.">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=ctGkLYuUCvU">Funcionamiento</a></li>
+                            <li><a target="_blank" href="https://my.clevelandclinic.org/health/body/21824-kidney">Partes</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/kidneydiseases.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>               
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>2. Seno renal</p>
+                    <div class="content">
+                        El seno renal es la cavidad del riñón que se forma a continuación del hilio renal, contiene las arterias y venas renales segmentarias e interlobulares, los ramos nerviosos principales del plexo renal y las vías urinarias intrarrenales
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=JlI5N2N4d-k">Definición</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/glandula-suprarrenal">Funcionamiento y Partes</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/adrenalglanddisorders.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>3. Cáliz mayor</p>
+                    <div class="content">
+                        Dos o tres cálices menores convergen para formar un cáliz mayor, a través del cual fluye la orina.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer/def/vena-cava#:~:text=La%20vena%20cava%20superior%20transporta,vena%20m%C3%A1s%20grande%20del%20cuerpo.">Definición</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/vena-cava-inferior-es">Anatomia y función</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>4. Cáliz menores</p>
+                    <div class="content">
+                        Los cálices menores, estructuras de forma acampanada situados en la base de cada papila renal, rodean el ápice de las pirámides renales.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=f5lWhqKAgvE">Anatomia</a></li>
+                            <li><a target="_blank" href="https://organosdepalencia.com/biblioteca/articulo/read/17330-que-funcion-cumple-la-arteria-aorta">Función</a></li>
+                            <li><a target="_blank" href="https://www.siacardio.com/academia/lideresemergentes/editorialesle/epidemiologia-y-manejo-de-las-enfermedades-de-la-aorta/">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <div class="center">
+                <div class="imageContainer">
+                    <model-viewer id="Imagen"  alt="Este es el riñon" ar-scale="fixed" src="../Images/Riñon.glb" shadow-intensity="1" camera-controls touch-action="pan-y">
+                        <button class="hotspot" slot="hotspot-left-kidney" data-position="-0.1 0.2 0.16" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">1. Capsula Renal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-glandula" data-position="0 0.1 0.20" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">2. Seno Renal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-cava-vein" data-position="0 0 0.23" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">3. Cáliz Mayor</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-aorta-artery" data-position="0.05 -0.17 0.05" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">4. Cáliz Menores</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-renal-vein" data-position="-0.08 -0.08 0.01" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">5. Piramide Renal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-renal-artery" data-position="0.13 0.23 0.1" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">6. Ductos de Bellini</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-uretes" data-position="0.11 -0.18 0.22" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">7. Corteza</div>
+                        </button>   
+                    </model-viewer>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>5. Piramide renal</p>
+                    <div class="content">
+                        Las pirámides renales o de Malpighi son tejidos del riñón con forma de cono. La médula renal está compuesta de 8 a 18 de estas subdivisiones cónicas.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=PGwQaNh3QpA">Anatomía y ramas</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/ency/esp_imagepages/9818.htm">Funcionamiento</a></li>
+                            <li><a target="_blank" href="https://www.stanfordchildrens.org/es/topic/default?id=renalvasculardisease-85-P08290">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>               
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>6. Ductos de Bellini</p>
+                    <div class="content">
+                        Los conductos papilares, también llamados conductos de Bellini o conductos colectores de Bellini, son un conjunto de conductos existentes en riñón, en los que confluyen los túbulos colectores procedentes de las nefronas.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=ZIyWDAdNxNQ">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=-yfuSrt-0Uk">Anatomía</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/ency/article/001065.htm">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>7. Corteza</p>
+                    <div class="content">
+                        La corteza renal es la capa más externa del tejido renal. Es más oscura que la médula renal subyacente porque recibe más del 90% de la irrigación del riñón.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.org/es/cancer/cancer-de-vejiga/acerca/que-es-cancer-de-vejiga.html">Cancer de vejiga</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/vejiga-urinaria">Funcionamiento y Anatomía</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/bladderdiseases.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>Evaluacion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</body>
+</html>

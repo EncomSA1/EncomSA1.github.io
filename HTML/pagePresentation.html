@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../CSS/pagePresentation.css">
+    <title>Presentación</title>
+</head>
+<body>
+        <!--Header-->
+
+        <header class="header" id="header">
+            <nav class="nav container">
+            <p class="navL">
+                ENCOM - Educando por un mejor mañana
+            </p>
+            <div class="navM" id="nav-menu">
+                <ul class="navList">
+                <li class="navItem">
+                    <a href="../index.html" class="navLink active-link"> Inicio </a>
+                </li>   
+                <li class="navItem">
+                    <a href="./pageSimulation.html" class="navLink">Simulador</a>
+                </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+        <div class="principalContent">
+            <div class="presentationContainer">
+                <h1 id="question">¿Estas listo para empezar a conocer el sistema urinario?</h1>
+                <h4 id="explanation">Tendrás a tu total disposición el mejor y mas completo modelo del sistema urinario. Podrás recorrerlo y encontraras las mejores explicaciones y herramientas para entender que pasa en nuestros riñones.
+                <br>
+                <br>Nuestros simuladores son 100% diseños propios y exclusivos para ti.
+                </h4>
+                <a id="button" href="./pageSimulation.html">INGRESAR</a>
+            </div>
+            <div class="imageContainer">
+                <model-viewer id="Imagen" alt="Este es un Riñon" ar-scale="fixed" src="../Images/Sistema.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+            </div>
+            <div class="footerContainer">
+                <h2 id="footerText">Somos afiliados a la Universidad del Rosario y a la Universidad Escuela Colombiana de Ingeniería Julio Garavito</h2>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</html>

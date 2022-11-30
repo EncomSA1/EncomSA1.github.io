@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Urinario</title>
+    <link rel="stylesheet" href="../CSS/Sistema.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upSection">
+            <a id="atras" href="./pageSimulation.html">Atras</a>
+            <h1>Anatomia Funcional del Sistema Urinario</h1>
+        </div>
+        <div class="downSection">
+            <div class="left">
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>1. Riñones</p>
+                    <div class="content">
+                        Los riñones son dos órganos en forma de frijol, cada uno aproximadamente del tamaño de un puño. Están ubicados justo debajo de la caja torácica (costillas), uno a cada lado de la columna vertebral.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/enfermedades-rinones/rinones-funcionamiento">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=ctGkLYuUCvU">Funcionamiento</a></li>
+                            <li><a target="_blank" href="https://my.clevelandclinic.org/health/body/21824-kidney">Partes</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/kidneydiseases.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>               
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>2. Glandula adrenal</p>
+                    <div class="content">
+                        Glándula pequeña que produce hormonas esteroideas, epinefrina y norepinefrina. Estas hormonas ayudan a controlar los latidos del corazón, la presión arterial y otras funciones importantes del cuerpo.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=JlI5N2N4d-k">Definición</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/glandula-suprarrenal">Funcionamiento y Partes</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/adrenalglanddisorders.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>3. Vena cava</p>
+                    <div class="content">
+                        Vena grande que desemboca en el corazón. Transporta la sangre de las piernas y los pies, y de los órganos del abdomen y la pelvis.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer/def/vena-cava#:~:text=La%20vena%20cava%20superior%20transporta,vena%20m%C3%A1s%20grande%20del%20cuerpo.">Definición</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/vena-cava-inferior-es">Anatomia y función</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>4. Arteria aorta</p>
+                    <div class="content">
+                        La aorta es la arteria más importante del cuerpo humano cuya única e importante función es llevar sangre oxigenada desde el corazón al resto del cuerpo. 
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=f5lWhqKAgvE">Anatomia</a></li>
+                            <li><a target="_blank" href="https://organosdepalencia.com/biblioteca/articulo/read/17330-que-funcion-cumple-la-arteria-aorta">Función</a></li>
+                            <li><a target="_blank" href="https://www.siacardio.com/academia/lideresemergentes/editorialesle/epidemiologia-y-manejo-de-las-enfermedades-de-la-aorta/">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>5. Vena renal</p>
+                    <div class="content">
+                        Vena principal que transporta la sangre desde el riñón y el uréter hasta la vena cava inferior.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=PGwQaNh3QpA">Definiciones</a></li>
+                            <li><a target="_blank" href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1025-02552010000400008">Anatomia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="imageContainer">
+                    <model-viewer id="Imagen"  alt="Este es el sistema urinario" ar-scale="fixed" src="../Images/Urinario.glb" shadow-intensity="1" camera-controls touch-action="pan-y">
+                        <button class="hotspot" slot="hotspot-left-kidney" data-position="-0.1 0.2 0.26" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">1. Riñones</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-glandula" data-position="0.1 0.3 0.20" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">2. Glandula adrenal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-cava-vein" data-position="0 0.4 0.23" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">3. Vena Cava</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-aorta-artery" data-position="0.05 0.1 0.2" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">4. Arteria Aorta</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-renal-vein" data-position="-0.05 0.2 0.2" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">5. Vena Renal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-renal-artery" data-position="0.1 0.2 0.2" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">6. Arteria Renal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-uretes" data-position="0.11 0.04 0.22" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">7. Ureteres</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-vejiga" data-position="0.05 -0.22 0.20" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">8. Vejiga</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-uretra" data-position="0.03 -0.31 0.20" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">9. Uretra</div>
+                        </button>    
+                    </model-viewer>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>6. Arteria renal</p>
+                    <div class="content">
+                        Vaso sanguíneo principal que lleva sangre al riñón y su glándula suprarrenal y uréter cercanos. Hay una arteria renal para cada riñón.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=PGwQaNh3QpA">Anatomía y ramas</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/ency/esp_imagepages/9818.htm">Funcionamiento</a></li>
+                            <li><a target="_blank" href="https://www.stanfordchildrens.org/es/topic/default?id=renalvasculardisease-85-P08290">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>               
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>7. Ureteres</p>
+                    <div class="content">
+                        Los uréteres son estructuras bilaterales, musculares y tubulares, responsables de transportar la orina desde los riñones a la vejiga urinaria para almacenamiento y posterior excreción.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=ZIyWDAdNxNQ">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=-yfuSrt-0Uk">Anatomía</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/ency/article/001065.htm">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>8. Vejiga</p>
+                    <div class="content">
+                        Es un órgano en forma de globo ubicado en la parte inferior del abdomen, cerca de la pelvis. En la vejiga se acumula la orina procedente de los riñones hasta que se elimina del cuerpo.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.org/es/cancer/cancer-de-vejiga/acerca/que-es-cancer-de-vejiga.html">Cancer de vejiga</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/vejiga-urinaria">Funcionamiento y Anatomía</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/bladderdiseases.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>9. Uretra</p>
+                    <div class="content">
+                        La uretra es un tubo membranoso que se extiende desde la vejiga hasta el orificio uretral externo. En ambos sexos, su función es transportar la orina al exterior del cuerpo. Además, en los hombres sirve para transportar semen.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/enfermedades-urologicas/aparato-urinario-funciona">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=EQUdo392wg0">Anatomía</a></li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>Evaluacion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</body>
+</html>

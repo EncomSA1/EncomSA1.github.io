@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Urinario</title>
+    <link rel="stylesheet" href="../CSS/Nefrona.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upSection">
+            <a id="atras" href="./pageSimulation.html">Atras</a>
+            <h1>Anatomia Funcional de la Nefrona</h1>
+        </div>
+        <div class="downSection">
+            <div class="left">
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>1. Capsula de Bowsman</p>
+                    <div class="content">
+                        La cápsula de Bowman es un saco en forma de copa al comienzo del componente tubular de una nefrona en el riñón de los mamíferos que realiza el primer paso en la filtración de sangre para formar orina.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/enfermedades-rinones/rinones-funcionamiento">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=ctGkLYuUCvU">Funcionamiento</a></li>
+                            <li><a target="_blank" href="https://my.clevelandclinic.org/health/body/21824-kidney">Partes</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/kidneydiseases.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>               
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>2. Arteria radial</p>
+                    <div class="content">
+                        Rama de las arterias arciformes que, de forma perpendicular a la superficie renal, asciende por la corteza. Allí puede originar arterias colaterales antes de seguir su trayecto directo hacia la superficie.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=JlI5N2N4d-k">Definición</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/glandula-suprarrenal">Funcionamiento y Partes</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/adrenalglanddisorders.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>3. Macula densa</p>
+                    <div class="content">
+                        
+Macula densa
+
+
+La mácula densa es una región del túbulo distal de la nefrona (unidad estructural y funcional básica del riñón, responsable de la purificación de la sangre) que se haya en contacto con la arteriola aferente (que trae la sangre al riñón).
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer/def/vena-cava#:~:text=La%20vena%20cava%20superior%20transporta,vena%20m%C3%A1s%20grande%20del%20cuerpo.">Definición</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/vena-cava-inferior-es">Anatomia y función</a></li>
+                        </ul>
+                    </div>
+                </div>   
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>4. Glomerulo</p>
+                    <div class="content">
+                        Racimo pequeño y redondo de vasos sanguíneos en el interior de los riñones. Filtra la sangre para reabsorber materiales útiles y extrae los desperdicios en forma de orina.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=PGwQaNh3QpA">Definiciones</a></li>
+                            <li><a target="_blank" href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1025-02552010000400008">Anatomia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="imageContainer">
+                    <model-viewer id="Imagen"  alt="Este es el sistema urinario" ar-scale="fixed" src="../Images/Nefrona.glb" shadow-intensity="1" camera-controls touch-action="pan-y">
+                        <button class="hotspot" slot="hotspot-left-kidney" data-position="-0.15 0.25 0.18" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">1. Capsula de Bowsman</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-glandula" data-position="0.33 0.2 0.22" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">2. Arteria Radial</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-cava-vein" data-position="-0.23 0.45 0.17" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">3. Macula Densa</div>
+                        </button>
+                        </button>
+                        <button class="hotspot" slot="hotspot-renal-vein" data-position="-0.19 0.3 0.2" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">4. Glomerulo</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-renal-artery" data-position="0.29 0.2 0.2" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">5. Tubulo Recto Proximal</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-vejiga" data-position="0.05 0.22 0.20" data-normal="-0.73 0.05 -0.69">
+                            <div class="annotation">6. Ducto colector cortical</div>
+                        </button>
+                        <button class="hotspot" slot="hotspot-uretra" data-position="-0.2 -0.02 0.20" data-normal="-0.73 0.05 0.69">
+                            <div class="annotation">7. Tubulo Distal</div>
+                        </button>    
+                    </model-viewer>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>5. Tubulo proximal</p>
+                    <div class="content">
+                        En él se realiza la reabsorción y secreción casi total de los principales solutos, además de la reabsorción del 70% del agua filtrada.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=PGwQaNh3QpA">Anatomía y ramas</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/ency/esp_imagepages/9818.htm">Funcionamiento</a></li>
+                            <li><a target="_blank" href="https://www.stanfordchildrens.org/es/topic/default?id=renalvasculardisease-85-P08290">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>                              
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>6. Colector cortical</p>
+                    <div class="content">
+                        Última parte de un tubo largo y enroscado que recoge la orina de las nefronas (estructuras celulares del riñón que filtran sangre y producen orina) y la lleva a la pelvis renal y los uréteres
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.cancer.org/es/cancer/cancer-de-vejiga/acerca/que-es-cancer-de-vejiga.html">Cancer de vejiga</a></li>
+                            <li><a target="_blank" href="https://www.kenhub.com/es/library/anatomia-es/vejiga-urinaria">Funcionamiento y Anatomía</a></li>
+                            <li><a target="_blank" href="https://medlineplus.gov/spanish/bladderdiseases.html">Patologias Comunes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>7. Tubulo distal</p>
+                    <div class="content">
+                        El túbulo distal es la continuación de la rama gruesa ascendente y sigue un trayecto tortuoso a través de la corteza, hasta desembocar en el túbulo colector.
+                        Para conocer aún más sigue con nuestra bibliografia:
+                        <ul>
+                            <li><a target="_blank" href="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/enfermedades-urologicas/aparato-urinario-funciona">Definición</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=EQUdo392wg0">Anatomía</a></li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="circle"></div>
+                    <p>Evaluacion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</body>
+</html>
